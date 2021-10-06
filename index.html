@@ -1,87 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico">
+     <link rel="stylesheet" href="CSS/style.css">
+
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
      <title>Facebook - entre ou cadastre-se</title>
 </head>
+
 <body>
-     <div class="fb-text">
-          <h1>Facebook</h1>
-          <p>
-               O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
-          </p>
-     </div>
+     <section>
+          <div class="container">
+               <div class="fb-text">
+                    <img src="IMG/facebook.svg" alt="Facebook">
+                    <h2>
+                         O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                    </h2>
+               </div>
 
-     <div class="fb-login">
-          <form action="#">
-               <input type="text" name="login" id="login">
-               <input type="password" name="senha" id="senha">
-               <input type="button" value="Entrar">
-               <span class="esqueceu-senha"><a href="#">Esqeceu a senha?</a></span>
-               <hr>
-               <input type="button" value="Criar nova conta">
-          </form>
+               <div class="fb-login">
+                    <form action="#">
+                         <input type="text" name="login" id="login" placeholder="Email ou telefone">
+                         <input type="password" name="senha" id="senha" placeholder="Senha">
+                         <button id="btn-entrar">Entrar</button>
+                         <span class="esqueceu-senha" id="txt-esqueceu-a-senha"><a href="#">Esqueceu a senha?</a></span>
 
-          <p><span>Criar uma Página</span> para uma celebridade, banda ou empresa.</p>
-     </div>
+                         <hr
+                              style="height: 0.5px; background: rgb(219, 219, 219); margin: 0.8rem; width: 100%; border: none;">
 
+                         <button id="btn-nova-conta">Criar nova conta</button>
+                    </form>
+
+                    <p id="txt-criar-uma-pagina">
+                         <span>Criar uma Página</span> para uma celebridade, banda ou empresa.
+                    </p>
+               </div>
+          </div>
+
+     </section>
      <footer>
-          <ul class="lista-idiomas">
-               <li>Português (Brasil)</li>
-               <li>English (US)</li>
-               <li>Español</li>
-               <li>Français (France)</li>
-               <li>Italiano</li>
-               <li>Deutsch</li>
-               <li>العربية</li>
-               <li>हिन्दी</li>
-               <li>中文(简体)</li>
-               <li>日本語</li>
-               <input type="button" value="+">
-          </ul>
-          <hr>
+          <div class="footer-container">
+               <ul class="lista-idiomas">
+                    <li>Português (Brasil)</li>
+                    <li>English (US)</li>
+                    <li>Español</li>
+                    <li>Français (France)</li>
+                    <li>Italiano</li>
+                    <li>Deutsch</li>
+                    <li>العربية</li>
+                    <li>हिन्दी</li>
+                    <li>中文(简体)</li>
+                    <li>日本語</li>
+                    <li id="adicionar-idioma"><a href="#">+</a></li>
+               </ul>
+               <hr style="border: none; background-color: grey; width: 95%; height: 1px; margin-left: 15px;">
 
-          <ul class="acoes">
-               <li>Cadastre-se</li>
-               <li>Entrar</li>
-               <li>Messenger</li>
-               <li>Facebook Lite</li>
-               <li>Watch</li>
-               <li>Locais</li>
-               <li>Jogos</li>
-               <li>Marketplace</li>
-               <li>Facebook Pay</li>
-               <li>Vagas de emprego</li>
-               <li>Oculus</li>
-               <li>Portal</li>
-               <li>Instagram</li>
-               <li>Local</li>
-               <li>Campanhas de arrecadação de fundos</li>
-               <li>Serviços</li>
-               <li>Central de Informações de Votação</li>
-               <li>Sobre</li>
-               <li>Criar anúncio</li>
-               <li>Criar Página</li>
-               <li>Desenvolvedores</li>
-               <li>Carreiras</li>
-               <li>Privacidade</li>
-               <li>Cookies</li>
-               <li>Escolhas para anúncios</li>
-               <li>Termos</li>
-               <li>Ajuda</li>
-          </ul>
+               <ul class="acoes">
+                    <li><a href="#">Cadastre-se</a></li>
+                    <li><a href="#">Entrar</a></li>
+                    <li><a href="#">Messenger</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Locais</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Facebook Pay</a></li>
+                    <li><a href="#">Vagas de emprego</a></li>
+                    <li><a href="#">Oculus</a></li>
+                    <li><a href="#">Portal</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Local</a></li>
+                    <li><a href="#">Campanhas de arrecadação de fundos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Central de Informações de Votação</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Criar anúncio</a></li>
+                    <li><a href="#">Criar Página</a></li>
+                    <li><a href="#">Desenvolvedores</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Escolhas para anúncios</a></li>
+                    <li><a href="#">Termos</a></li>
+                    <li><a href="#">Ajuda</a></li>
+               </ul>
 
-          <span>Facebook@2021</span>
+               <span>Facebook@2021</span>
+          </div>
      </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
