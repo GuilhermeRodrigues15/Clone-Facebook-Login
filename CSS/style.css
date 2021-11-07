@@ -46,6 +46,7 @@ section{
      width: 396px;
      height: 496px;
      margin: 0.8rem 0 0 5rem;
+     text-align: center;
 }
 
 .fb-login form{
